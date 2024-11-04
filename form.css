@@ -13,7 +13,7 @@
         justify-content: center;
         align-items: center;
         padding: 20px;
-        background: linear-gradient(135deg, #063453, #9b59b6);
+        background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
     .registration-form{
@@ -38,7 +38,7 @@
         bottom: 0;
         height: 3px;
         width: 30px;
-        background: linear-gradient( #71b7e6 #6a1c89);
+        background: linear-gradien  (#fbc2eb 0%, #a6c1ee 100%);
 
        }
 
@@ -138,7 +138,7 @@
         width: 100%;
         outline: none;
         font-size: 20px;
-        background: linear-gradient(45deg, #bcc3c8, #1c96ee, #6a1c89);
+        background: linear-gradient(#fbc2eb 0%, #a6c1ee 100%);
         cursor: pointer;
          
      }
