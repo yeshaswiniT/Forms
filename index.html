@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="form.css">
     <title>Submission Form</title>
-<style>
 
+<style>
 
 *{
     margin: 0;
@@ -17,6 +17,7 @@
 
       body{
         display: flex;
+        flex: 1,1 ;
         height: 100vh;
         justify-content: center;
         align-items: center;
@@ -148,12 +149,11 @@
      .button input[type="submit"]:hover {
         transform: scale(1.05);
      }
-
-     </style>
-     </head>
-     <body>
-
-
+</style>
+ 
+</head>
+ <body>
+ 
 <div class="registration-form">
   <div class="tittle">Registration</div>
     <form action="/submit_registration" method="POST">
@@ -243,8 +243,9 @@
         <div class="button">
             <input type="submit" value="Register">
         </div>
+    </div>
     </form>
-</div>
+
 
 </body>
 </body>
